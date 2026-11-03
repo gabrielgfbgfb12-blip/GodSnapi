@@ -1,0 +1,21 @@
+GOD SNAP - Mod "Deus / Estalo do Thanos" (NeoForge 1.21.1)
+
+COMPILAR PELO GITHUB (sem instalar nada)
+1) Crie uma conta e um repositorio novo no github.com.
+2) Extraia este zip e entre na pasta godsnap. Selecione TUDO que esta dentro
+   (src, build.gradle, gradle.properties, settings.gradle, .gitignore...) e arraste
+   para "Add file > Upload files". Se ja existirem arquivos la, eles sao substituidos.
+3) Arquivo do workflow: .github/workflows/build.yml (Add file > Create new file).
+4) Aba "Actions": espere o build ficar verde.
+5) Clique no build > "Artifacts" > godsnap-jar.
+
+JOGANDO
+- Tecla padrao: G (mude em Opcoes > Controles > God Snap).
+- Olhe para um mob (ate 64 blocos) e aperte G: ele some de cima para baixo virando
+  lascas de poeira com as cores dele, sopradas pelo vento.
+- Precisa estar instalado no cliente e no servidor.
+
+AJUSTES
+- Disintegration.java: DURATION (duracao), WIND_SPEED (forca do vento)
+- DustSpawner.java: quantidade de lascas (base/count), cores
+- FlakeParticle.java: tamanho (quadSize), vida (lifetime)
